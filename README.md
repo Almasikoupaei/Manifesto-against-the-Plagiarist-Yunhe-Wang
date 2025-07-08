@@ -32,7 +32,7 @@
 
 ### 回应
 
-1. 关于135B dense模型指标的质疑：https://github.com/HW-whistleblower/True-Story-of-Pangu/issues/317：
+1. 关于135B dense模型指标的质疑：https://github.com/HW-whistleblower/True-Story-of-Pangu/issues/317 ：
 
    此报告撰写过程中，王云鹤已然上任（理智的人可以分析arxiv报告上载时间）。与Pangu Ultra MoE完全一致，在文章攥写过程中，可笑的是，大部分被挂名的、实际做事的被列为Contributor的研究者，在论文撰写过程中对其存在、进度全然不知。其只挑选了唐睿明、尚利峰团队的一小部分成员对其倾囊相授，将所有问题、技术点等凝练成文中方法及之前的部分。而对于模型的实际效果和测试集表现，小模型团队大包大揽，唐睿明、尚利峰成员几乎全然不知，或者是被剥夺了抗议的权利，最终导致报告中列出了假到极致的训练测试集后的结果。
 
